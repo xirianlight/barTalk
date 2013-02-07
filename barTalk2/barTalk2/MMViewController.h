@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMViewController : UIViewController
+@interface MMViewController : UIViewController <UITextFieldDelegate>
 {
     IBOutlet UILabel *myLabel;
 }
